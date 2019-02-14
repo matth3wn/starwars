@@ -9,7 +9,7 @@ class SearchBar extends Component {
       options: null,
     }
   }
-  
+
   handleChange(term) {
     this.setState({
       searchTerm: term
@@ -25,12 +25,7 @@ class SearchBar extends Component {
   handleSubmit(e) {
     e.preventDefault();
 
-    if(this.state.options === ''){
-      this.setState({
-        option:true,
-      })
-    }
-    else{
+    if(this.state.options){
       this.props.search(this.state.searchTerm, this.state.options);
     }
     
@@ -47,7 +42,7 @@ class SearchBar extends Component {
             className='search'
             onChange={(e) => this.handleChange(e.target.value)}
           />
-          <select onChange={(e)=>this.handleSelct(e.target.value) }>
+          <select onChange={(e)=>this.handleSelct(e.target.value)}  >
            <option value= ''>--Select--</option>
             <option value="planets">planets</option>
             <option value="starships">spaceships</option>
@@ -58,7 +53,7 @@ class SearchBar extends Component {
           </select>
           <button className='submit' type="submit"> Search!</button>
         </form>
-        {this.state.options && <p>Please select an option...</p>}
+        {!this.state.options ? <p> Please select an option</p>: ''}
       </div>
 
     );
