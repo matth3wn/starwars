@@ -4,7 +4,7 @@ import './Header.css';
 function Header(props){
 
   return(
-    <h1 className="header">Star Wars Character Search</h1>
+    <h1 className="header">Star Wars Search</h1>
   );
 }
 
