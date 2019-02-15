@@ -1,12 +1,13 @@
 html{
-  background: url('http://www.animationmagazine.net/wordpress/wp-content/uploads/star-wars-background.jpg') no-repeat center center fixed;
+  background: url('http://getwallpapers.com/wallpaper/full/b/8/b/40257.jpg') no-repeat center center fixed;
   background-size: cover; 
 
 }
 
 .App {
   text-align: center;
-  color:white;
+  color: rgb(75, 213, 238);
+  font: Franklin Gothic medium;
 }
 
 

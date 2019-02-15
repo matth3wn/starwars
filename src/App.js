@@ -41,7 +41,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <SearchBar search={(e, c) => this.handleSearch(e, c)} />
-        {this.state.loading ? <p>Searching...</p>: ''}
+        {this.state.loading ? <p>Searching in a galaxy far, far, away...</p>: ''}
         <Results data={this.state.data} />
       </div>
     );

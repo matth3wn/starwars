@@ -1,0 +1,25 @@
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+select{
+  height: 30px;
+  font-size: 16px;
+  margin: 5px;
+  font: Franklin Gothic;
+}
+
+button{
+  height: 30px;
+  font-size: 16px;
+  margin: 5px;
+  font: Franklin Gothic;
+}
+li{
+  list-style-type: none;
+  padding: 2%;
+  font: Franklin Gothic;
+}

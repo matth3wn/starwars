@@ -51,9 +51,9 @@ class SearchBar extends Component {
             <option value="films">films</option>
             <option value="species">species</option>
           </select>
-          <button className='submit' type="submit"> Search!</button>
+          <button className='submit' type="submit"> Pew! Pew!</button>
         </form>
-        {!this.state.options ? <p> Please select an option</p>: ''}
+        {!this.state.options ? <li> Please select an option  </li>: ''}
       </div>
 
     );
