@@ -9,7 +9,7 @@ function Results(props) {
     .data
     .results
     .map((i, j) => {
-        return(<li key={j}>{i.name}</li>);      
+        return(<li key={j}>{i.name || i.title}</li>);      
     });
  }
  else if(props.data.results){
