@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar Component renders searchbar 1`] = `
+<div>
+  <form
+    className="searchbar"
+    onSubmit={[Function]}
+  >
+    <input
+      className="search"
+      id="search"
+      name="search"
+      onChange={[Function]}
+      type="text"
+    />
+    <select
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        --Select--
+      </option>
+      <option
+        value="planets"
+      >
+        planets
+      </option>
+      <option
+        value="starships"
+      >
+        spaceships
+      </option>
+      <option
+        value="vehicles"
+      >
+        vehicles
+      </option>
+      <option
+        value="people"
+      >
+        characters
+      </option>
+      <option
+        value="films"
+      >
+        films
+      </option>
+      <option
+        value="species"
+      >
+        species
+      </option>
+    </select>
+    <button
+      className="submit"
+      type="submit"
+    >
+       Pew! Pew!
+    </button>
+  </form>
+  <li>
+     Please select an option  
+  </li>
+</div>
+`;
